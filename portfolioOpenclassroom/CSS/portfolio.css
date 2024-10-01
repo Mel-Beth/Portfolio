@@ -1,0 +1,83 @@
+body {
+  font-family: "Manrope", sans-serif;
+  font-size: 18px;
+  background-color: #1f2039;
+}
+
+/*en-tete*/
+nav {
+  display: flex; 
+  justify-content: space-between;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+nav a:hover {
+  color: #94e95c;
+}
+
+/*creation*/
+#creation {
+  margin-bottom: 100px;
+  color: #94e95c;
+  margin-top: 100px;
+  text-align: center;
+}
+
+#creation div {
+  display: flex;
+  justify-content: center;
+}
+
+#creation img {
+  width: 150px;
+  margin-right: 80px;
+  margin-left: 100px;
+  object-fit: cover;
+}
+
+
+/*footer*/
+footer {
+  display: flex;
+}
+
+.logo {
+  width: 80px;
+  margin-left: 30px;
+}
+
+footer div {
+  background-color: white;
+  justify-content: flex-start;
+  align-content: center;
+}
+
+footer div img {
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 996px) {
+  .grid-paysages {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+
+  .grid-portraits {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+}

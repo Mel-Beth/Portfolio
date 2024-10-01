@@ -1,0 +1,107 @@
+body {
+    font-family: "Manrope", sans-serif;
+    font-size: 18px;
+    background-color: #1f2039;
+  }
+
+  /*en-tete*/
+nav {
+  display: flex; 
+  justify-content: space-between;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+nav a:hover {
+  color: #94e95c;
+}
+  
+h3 {
+  color: #94e95c;
+  font-size: 30px;
+  text-align: center;
+  padding: 100px;
+}
+
+.formulaire {
+  border: red solid 1px;
+    justify-content: center;
+    justify-items: center;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    margin: auto;
+    color: white;
+  }
+  
+  .form-nom-email {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+  
+  .form-column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  input,
+  textarea {
+    padding: 15px;
+    border-radius: 3px;
+    border: none;
+  }
+  
+  label {
+    margin-bottom: 10px;
+  }
+  
+  input[type="submit"] {
+    width: 200px;
+    margin: auto;
+    margin-top: 30px;
+    color: white;
+    font-size: 15px;
+    border-radius: 50px;
+    background-color: #94e95c;
+    margin-bottom: 30px;
+  }
+
+  
+/*footer*/
+footer {
+  display: flex;
+}
+
+.logo {
+  width: 80px;
+  margin-left: 30px;
+}
+
+footer div {
+  background-color: white;
+  justify-content: flex-start;
+  align-content: center;
+}
+
+footer div img {
+  margin-right: 10px;
+}

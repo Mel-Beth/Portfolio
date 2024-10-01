@@ -1,0 +1,125 @@
+body {
+  font-family: "Manrope", sans-serif;
+  font-size: 18px;
+  background-color: #1f2039;
+}
+
+/*en-tete*/
+nav {
+  display: flex; 
+  justify-content: space-between;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+nav a:hover {
+  color: #94e95c;
+}
+
+/*a propos*/
+#a-propos {
+  color: white;
+  display: flex;
+  
+}
+
+.a-propos {
+  align-content: center;
+  align-items: center;
+  text-align: justify;
+  padding: 150px;
+}
+
+#a-propos h1 {
+  color: #94e95c;
+  font-size: 90px;
+  margin-bottom: 20px;
+}
+
+#a-propos h2 {
+  color: #94e95c;
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+#a-propos img {
+  margin-top: 150px;
+  margin-left: 100px;
+  border: red solid 1px;
+  width: 400px;
+  border-radius: 20%;
+ 
+
+}
+
+#a-propos button {
+  color: white;
+  font-size: 15px;
+  margin-top: 30px;
+  border-radius: 50px;
+  background-color: #94e95c;
+  padding: 20px;
+}
+
+/*footer*/
+footer {
+  display: flex;
+}
+
+.logo {
+  width: 80px;
+  margin-left: 30px;
+}
+
+footer div {
+  background-color: white;
+  justify-content: flex-start;
+  align-content: center;
+}
+
+footer div img {
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 996px) {
+  header nav {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  header nav img {
+    margin-bottom: 20px;
+  }
+
+  header,
+  footer {
+    padding: 20px 20px;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+
+  section {
+    padding: 50px 20px 50px 20px;
+  }
+
+  nav a {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}

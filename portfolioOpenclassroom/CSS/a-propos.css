@@ -1,0 +1,66 @@
+
+body {
+  font-family: "Manrope", sans-serif;
+  font-size: 18px;
+  background-color: #1f2039;
+}
+
+/*en-tete*/
+nav {
+  display: flex; 
+  justify-content: space-between;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+nav a:hover {
+  color: #94e95c;
+}
+
+
+/*a propos*/
+.a-propos {
+  color: #94e95c;
+  align-content: center;
+  align-items: center;
+  text-align: justify;
+  padding: 150px;
+}
+
+.a-propos {
+  font-size: 30px;
+  text-align: center;
+}
+
+/*footer*/
+footer {
+  display: flex;
+}
+
+.logo {
+  width: 80px;
+  margin-left: 30px;
+}
+
+footer div {
+  background-color: white;
+  justify-content: flex-start;
+  align-content: center;
+}
+
+footer div img {
+  margin-right: 10px;
+}
