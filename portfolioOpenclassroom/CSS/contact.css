@@ -33,7 +33,8 @@ h3 {
   color: #94e95c;
   font-size: 30px;
   text-align: center;
-  padding: 100px;
+  padding-top: 100px;
+  padding-bottom: 50px;
 }
 
 .formulaire {
